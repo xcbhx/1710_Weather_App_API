@@ -1,5 +1,5 @@
 body {
-    background-color: #e6faff;
+    background-color: #014064;
     display: flex;
     justify-content: center;
     font-family: "Roboto", sans-serif;
@@ -10,12 +10,26 @@ main {
 }
 
 main > section {
+    display: flex;
+    align-items: center;
     background-color: #fff;
     border: 1px solid #007a99;
     box-shadow: 5px 5px 5px #999;
     padding: 20px;
     margin-top: 20px;
     width: 100%;
+    background-image: url('imgbackground.jpg');
+    background-size: cover;
+    color: rgb(247, 244, 244);
+}
+
+section > div {
+    display: flex;
+    flex-direction: column;
+}
+
+section > ul {
+    list-style-type: none;
 }
 
 fieldset {
@@ -23,6 +37,7 @@ fieldset {
 }
 
 h1 a {
-    color: #000;
+    color: #ffffff;
     text-decoration: none;
 }
+
